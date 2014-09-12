@@ -10,7 +10,7 @@ Here are some installation notes from Kirby, check the website for more details.
 
 ### Buy
 
-Though Kirby's source code is available on Github: <http://github.com/bastianallgeier/kirbycms>, you must purchase a license per website. It's well worth the investment, so please go to <http://getkirby.com/buy> to get a license.
+Though Kirby's source code is available on Github: <http://github.com/bastianallgeier/kirbycms>, you must purchase a license per website. It's well worth the investment, so please go get a [license](http://getkirby.com/buy).
 
 
 ### Installation
@@ -22,14 +22,14 @@ Visit <http://yourdomain.com> (you should probably replace the domain with your 
 
 ### Adding your license code
 
-After you've purchased a license for Kirby, please add your license code to site/config/config.php:
+After you've purchased a license for Kirby, please add your license code to `site/config/config.php`:
 
-c::set('license', 'put your license code here');
+    c::set('license', 'put your license code here');
 
 
 ### URL Rewriting
 
-If you are not allowed to have your own .htaccess file or to use mod_rewrite, go to `site/config/config.php` and search for the part where you can switch off url rewriting. 
+If you are not allowed to have your own `.htaccess` file or to use mod_rewrite, go to `site/config/config.php` and search for the part where you can switch off url rewriting. 
 
 ## Installing the theme
 
@@ -51,4 +51,4 @@ Almost there ! Then you can watch with compass, as you change the SCSS files.
     cd foundation
     compass watch
 
-I've updated the config.rb file from Foundation to have it compile right into the Kirby assets, so no additional configuration required :)
+I've updated the `config.rb` file from Foundation to have it compile right into the Kirby assets, so no additional configuration required :)
