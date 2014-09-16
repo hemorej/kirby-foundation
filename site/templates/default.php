@@ -1,14 +1,13 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
-<?php snippet('submenu') ?>
 
-<section class="content">
-
-  <article>
-    <h1><?php echo html($page->title()) ?></h1>
-    <?php echo kirbytext($page->text()) ?>
-  </article>
-
-</section>
+<div class="row">
+	<section class="small-12 medium-8 small-centered columns">
+	  <article>
+	    <h2><?php echo html($page->title()) ?></h2>
+	    <?php echo kirbytext($page->text()) ?>
+	  </article>
+	</section>
+</div>
 
 <?php snippet('footer') ?>

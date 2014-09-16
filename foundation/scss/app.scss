@@ -38,3 +38,9 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+@media #{$small-only} {
+	.top-bar-section h2{
+		margin-left: 1rem
+	}
+}

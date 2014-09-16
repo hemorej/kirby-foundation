@@ -7,13 +7,21 @@
   <meta name="description" content="<?php echo html($site->description()) ?>" />
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-  <?php echo css('assets/styles/styles.css') ?>
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/vendor/modernizr.js"></script>
+  <script src="assets/js/foundation/foundation.min.js"></script>
+  <script src="assets/js/foundation/foundation.topbar.js"></script>
+
+  <?php echo css('assets/styles/app.css') ?>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
-
-  <header>
-    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1>
-  </header>
+  <div class="row">
+	  <header class="small-12 small-centered medium-8 columns">
+	    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1>
+	  </header>
+  </div>
