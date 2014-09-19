@@ -1,10 +1,9 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
-<div class="row">
-	<section class="small-12 medium-8 small-centered columns">
+<div class="row medium-space-top">
+	<section class="small-12 medium-8 medium-push-2 columns">
 	  <article>
-	    <h2><?php echo html($page->title()) ?></h2>
 	    <?php echo kirbytext($page->text()) ?>
 	  </article>
 	</section>
