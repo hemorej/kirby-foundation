@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row large-space-top">
   <footer class="small-12 small-centered medium-8 columns">
     <?php echo kirbytext($site->copyright()) ?>
   </footer>

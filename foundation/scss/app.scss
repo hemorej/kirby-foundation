@@ -39,6 +39,16 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+.medium-space-top{
+	margin-top: 3%
+}
+.large-space-top{
+	margin-top: 6%
+}
+.text-italic{
+	font-style: italic
+}
+
 @media #{$small-only} {
 	.top-bar-section h2{
 		margin-left: 1rem
