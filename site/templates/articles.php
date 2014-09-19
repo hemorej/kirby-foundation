@@ -4,7 +4,6 @@
 <?php	
 	  $articles = $page->children()
 	                    ->visible()
-	                    ->flip()
 	                    ->paginate(10);
 ?>
 
@@ -26,19 +25,17 @@
 	<?php if($articles->pagination()->hasPages()): ?>
 	<div class="row">		
 		<div class="small-12 medium-8 small-centered columns">
-			<p>    						
-				<?php if($articles->pagination()->hasPrevPage()): ?>
-				<a href="<?= $articles->pagination()->prevPageURL() ?>">&laquo; Previous</a>
-				<?php endif ?>
-				
-				<?php if($articles->pagination()->hasPrevPage() && $articles->pagination()->hasNextPage()): ?>
-				|
-				<?php endif ?>
-				
-				<?php if($articles->pagination()->hasNextPage()): ?>
-				<a href="<?= $articles->pagination()->nextPageURL() ?>">Next  &raquo;</a>
-				<?php endif ?>
-			</p>			
+			<?php if($articles->pagination()->hasPrevPage()): ?>
+				<span class="left">
+					<a href="<?= $articles->pagination()->prevPageURL() ?>">&laquo; Previous</a>
+				</span>
+			<?php endif ?>
+			
+			<?php if($articles->pagination()->hasNextPage()): ?>
+				<span class="right">
+					<a href="<?= $articles->pagination()->nextPageURL() ?>">Next  &raquo;</a>
+				</span>
+			<?php endif ?>	
 		</div>
 	</div>
 	<?php endif ?>

@@ -18,19 +18,19 @@
 					<?php endforeach ?>
 				<?php endif ?>
 			</p>
-			<p>    						
+					
 				<?php if($page->hasPrev()): ?>
-				<a href="<?php echo $page->prev()->url() ?>">&laquo; Previous</a>
-				<?php endif ?>
-				
-				<?php if($page->hasPrev() && $page->hasNext()): ?>
-				|
+					<span class="left">
+						<a href="<?php echo $page->prev()->url() ?>">&laquo; Previous</a>
+					</span>
 				<?php endif ?>
 				
 				<?php if($page->hasNext()): ?>
-				<a href="<?php echo $page->next()->url() ?>">Next &raquo;</a>
+					<span class="right">
+						<a href="<?php echo $page->next()->url() ?>">Next &raquo;</a>
+					</span>
 				<?php endif ?>
-			</p>		
+
 		</div>
 	</div>	
 </div>
