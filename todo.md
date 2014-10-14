@@ -9,3 +9,4 @@ Because I'm gonna forget unless I write it down
 - make a note in readme about how to change the site info (name copyright etc, in site.txt)
 - make a note in readme about how to change the font
 - uncss, compress, concat bundled js/css for prod
+- push panel ? align blueprints with templates
