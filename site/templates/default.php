@@ -2,7 +2,7 @@
 <?php snippet('menu') ?>
 
 <div class="row medium-space-top">
-	<section class="small-12 medium-8 medium-push-2 columns">
+	<section class="small-centered small-12 medium-12 large-8 columns">
 	  <article>
 	    <?php echo kirbytext($page->text()) ?>
 	  </article>
