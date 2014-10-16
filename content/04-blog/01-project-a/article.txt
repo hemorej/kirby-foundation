@@ -1,0 +1,9 @@
+Title: Project A
+----
+Tags: lorem, ipsum
+----
+Published: September 18, 2014
+----
+date: September 22, 2014
+----
+Text: Some real text here

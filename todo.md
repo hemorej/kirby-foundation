@@ -4,7 +4,6 @@ Because I'm gonna forget unless I write it down
 
 - interchange + kirby resize to serve up responsive imgs
 - comment system (disqus ? kudos ?)
-- feed template (rss)
 - background header image instead of bar for logo (medium style, not as big)
 - make a note in readme about how to change the site info (name copyright etc, in site.txt)
 - make a note in readme about how to change the font
