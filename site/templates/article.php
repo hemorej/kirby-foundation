@@ -34,6 +34,9 @@
 		</div>
 	</div>	
 </div>
-
-
+<div class="row">
+	<div class="small-12 medium-8 medium-push-2 columns">
+		<?php snippet('disqus', array('disqus_shortname' => c::get('disqus_username'))) ?>
+	</div>
+</div>
 <?php snippet('footer') ?>
