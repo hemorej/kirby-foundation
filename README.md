@@ -60,6 +60,6 @@ The quickest and easiest way to modify Foundation to your liking is in the `_glo
 
 Foundation is pretty big and odds are you won't be needing everything it offers for your website, you can choose which modules to load by commenting/uncommenting @import statement in `foundation.scss`
 
-You also want to change the site info that comes with Kirby (your name, description, copyright notice etc). To do that simply update the `site.txt` under content.
+You also want to change the site info that comes with Kirby (your name, description, copyright notice etc). To do that simply update the `site.txt` under content, or you can do that from the panel if you have it installed.
 
 Everything is very well documented in detail over at [Foundation](http://foundation.zurb.com/docs/)
