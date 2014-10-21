@@ -1,4 +1,4 @@
-Title: Project A
+Title: Article A
 ----
 Tags: lorem, ipsum
 ----
