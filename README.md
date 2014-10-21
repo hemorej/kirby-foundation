@@ -56,8 +56,10 @@ Almost there ! Then you can watch with compass, as you change the SCSS files.
 
 I've updated the `config.rb` file from Foundation to have it compile right into the Kirby assets, so no additional configuration required :)
 
-The quickest and easiest way to modify Foundation to your liking is in the `_global.scss` file, where they define the (you got it) global SCSS variables like colors, font-family, the base font size and the media query ranges. 
+The quickest and easiest way to modify Foundation to your liking is in the `_global.scss` file, where they define the (you got it) global SCSS variables like colors, font-family, the base font size and the media query ranges. Don't forget to recompile with sass !
 
 Foundation is pretty big and odds are you won't be needing everything it offers for your website, you can choose which modules to load by commenting/uncommenting @import statement in `foundation.scss`
+
+You also want to change the site info that comes with Kirby (your name, description, copyright notice etc). To do that simply update the `site.txt` under content.
 
 Everything is very well documented in detail over at [Foundation](http://foundation.zurb.com/docs/)
