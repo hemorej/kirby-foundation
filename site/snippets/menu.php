@@ -6,9 +6,9 @@
 	  	</ul>
 
 	  	<section class="top-bar-section">
-	  		<ul class="left large-push-2">
+  		  <ul class="left">
 		    <?php foreach($pages->visible() AS $p): ?>
-		    <li><h2><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></h2></li>
+		    <li><h3><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></h3></li>
 		    <?php endforeach ?>
 		  </ul>
 		</section>

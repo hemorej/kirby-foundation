@@ -10,7 +10,7 @@
 	<?php foreach($articles as $article): ?>
 
 <div class="row medium-space-top">		
-	<div class="small-12 medium-8 medium-push-2 columns">
+	<div class="small-12 small-centered medium-12 columns">
 			<h3><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h3>
 			<p class="text-left text-italic"><?php echo html($article->published()) ?></p>
 
@@ -24,7 +24,7 @@
 	<?php endforeach ?>
 	<?php if($articles->pagination()->hasPages()): ?>
 	<div class="row">		
-		<div class="small-12 medium-8 small-centered columns">
+		<div class="small-12 small-centered medium-12 columns">
 			<?php if($articles->pagination()->hasPrevPage()): ?>
 				<span class="left">
 					<a href="<?= $articles->pagination()->prevPageURL() ?>">&laquo; Previous</a>

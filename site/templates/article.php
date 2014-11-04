@@ -3,13 +3,13 @@
 
 
 <div class="row medium-space-top">		
-	<div class="small-12 medium-8 medium-push-2 columns">
+	<div class="small-12 small-centered medium-12 columns">
 			<h3><a href="<?php echo $page->url() ?>"><?php echo html($page->title()) ?></a></h3>
 			<p class="text-left text-italic"><?php echo html($page->published()) ?></p>
 	</div>
 </div>
 <div class="row">		
-	<div class="small-12 medium-8 medium-push-2 columns">	
+	<div class="small-12 small-centered medium-12 columns">	
 			<?php echo kirbytext($page->text()) ?>
 			<p class="medium-space-top">
 				<?php if($page->tags()) : ?>
@@ -35,7 +35,7 @@
 	</div>	
 </div>
 <div class="row">
-	<div class="small-12 medium-8 medium-push-2 columns">
+	<div class="small-12 small-centered medium-12 columns">
 		<?php snippet('disqus', array('disqus_shortname' => c::get('disqus_username'))) ?>
 	</div>
 </div>
