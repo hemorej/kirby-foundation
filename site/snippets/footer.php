@@ -5,6 +5,10 @@
 </div>
 
 
+<script src="assets/js/vendor/jquery.js"></script>
+<script src="assets/js/foundation/foundation.min.js"></script>
+<script src="assets/js/foundation/foundation.interchange.js"></script>
+<script src="assets/js/foundation/foundation.topbar.js"></script>
 <script>
 	$(document).foundation();
 </script>
