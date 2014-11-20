@@ -10,7 +10,20 @@
 </div>
 <div class="row">		
 	<div class="small-12 small-centered medium-12 columns">	
-			<?php echo kirbytext($page->text()) ?>
+			<?php 
+
+			echo kirbytext($page->text()) ;
+			if($page->hasImages()){
+				$image = $page->image();
+
+				$small = thumb($image, array('width' => 300))->url() ;
+				$medium = thumb($image, array('width' => 600))->url() ;
+				$large = thumb($image, array('width' => 900))->url() ; ?>
+
+  				<img data-interchange="[<?php echo $medium; ?>, (default)], [<?php echo $small; ?>, (small)], [<?php echo $medium; ?>, (medium)], [<?php echo $large; ?>, (large)]" >
+  				<noscript><img src="<?php echo $large; ?>"></noscript>
+			<?php } ?>
+
 			<p class="medium-space-top">
 				<?php if($page->tags()) : ?>
 					Tags: <?php foreach(str::split($page->tags()) as $tag): ?>

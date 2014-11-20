@@ -4,10 +4,10 @@
   </footer>
 </div>
 
-<?php echo css('assets/js/vendor/jquery.js') ?>
-<?php echo css('assets/js/foundation/foundation.min.js') ?>
-<?php echo css('assets/js/foundation/foundation.interchange.js') ?>
-<?php echo css('assets/js/foundation/foundation.topbar.js') ?>
+<?php echo js('assets/js/vendor/jquery.js') ?>
+<?php echo js('assets/js/foundation/foundation.min.js') ?>
+<?php echo js('assets/js/foundation/foundation.interchange.js') ?>
+<?php echo js('assets/js/foundation/foundation.topbar.js') ?>
 <script>
 	$(document).foundation();
 </script>
