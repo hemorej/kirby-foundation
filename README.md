@@ -2,8 +2,6 @@ Solaria : A Foundation 5 theme for Kirby
 ================
 
 
-__THIS THEME IS STILL IN DEVELOPMENT__
-
 Using the Foundation framework to build a theme for the awesome Kirby CMS
 
 Kirby is a file-based CMS written by Bastian Allgeier, you can read more about it here <http://getkirby.com>
